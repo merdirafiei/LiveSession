@@ -1,0 +1,31 @@
+TestPres
+========================================================
+author: Merdi Rafiei
+date: 10/24/2016
+autosize: true
+
+A First Plot
+========================================================
+```{r}
+plot(1:20, pch=1:20)
+```
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
